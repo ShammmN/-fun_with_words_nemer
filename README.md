@@ -7,4 +7,4 @@ Why are DML operations restricted in some views?
 On some views there are restriction put in place such as a primary key on the underlying table which would stop a DML operation from running if these restructions are violated. 
 
 How is a materialized view different from a regular view?
-Materialized views physically replicates and stores data retreived from the view query. While a regular view stores the data virtually. 
+Materialized views physically replicates and stores data retreived from the view query. While a regular view just repersents data virtually and does not store any data. 
